@@ -1,0 +1,23 @@
+<xml>
+    <page>
+        <title>A</title>
+        <id>1</id>
+        <text>[[A]]</text>
+    </page>
+    <page>
+        <title>B</title>
+        <id>2</id>
+        <text>[[A]] [[A]] [[C]] [[D]]</text>
+    </page>
+    <page>
+        <title>C</title>
+        <id>3</id>
+        <text>[[D]] [[D]] [[D]]</text>
+    </page>
+    <page>
+        <title>D</title>
+        <id>4</id>
+        <text>[[C]] [[C]] [[C]] [[F]] [[F]]</text>
+    </page>
+</xml>
+        <!--Expected: Rank(A) = 0.0523, Rank(B) = 0.0523, Rank(C) = 0.4476, Rank(D) = 0.4476-->
